@@ -1,3 +1,3 @@
 variable "name" {}
 variable "description" {}
-variable "tenancy_ocid" {} 
+variable "tenancy_ocid" { sensitive = true } 
